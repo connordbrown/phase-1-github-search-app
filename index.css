@@ -11,3 +11,24 @@
 ul {
   list-style: none;
 }
+
+li {
+  margin: 30px;
+  border: 2px solid black;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: blue;
+}
+
+#avatar {
+  height: 60px;
+  width: 60px;
+}
+
