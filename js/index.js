@@ -37,7 +37,7 @@ function createUser(searchData) {
     searchData.items.forEach((item) => {
         const li = document.createElement('li');
             // sublist
-            // destructuring assignment to get multiple values
+            // destructuring assignment to get multiple values from data
             const {login, avatar_url, html_url} = item;
             // create elements
             const userLogin = document.createElement('p');
